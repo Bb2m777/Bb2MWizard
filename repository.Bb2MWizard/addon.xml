@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.Bb2MWizard" name="Bb2M Wizard" version="1.0.1" provider-name="Jefferson Steelflex">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Bb2M Wizard">
+            <info compressed="false">https://raw.githubusercontent.com/Bb2M777/Bb2MWizard_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Bb2M777/Bb2MWizard_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Bb2M777/Bb2MWizard_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Bb2m Wizard</summary>
+            <description>Bb2M Wizard to install all of your Bb2M builds</description>
+            <platform>all</platform>
+    </extension>
+</addon>

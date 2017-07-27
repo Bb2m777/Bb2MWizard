@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="plugin.program.bb2mwizard" name="Bb2M Wizard" version="1.0.1" provider-name="Jefferson Steelflex">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Bb2M Wizard">
+            <info compressed="false">https://raw.githubusercontent.com/bb2m777/bb2mwizard_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bb2m777/bb2mwizard_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bb2m777/bb2mwizard_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Bb2M Wizard</summary>
+            <description>One program to insall all of your favorite Bb2M Builds and keep your device clean</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
